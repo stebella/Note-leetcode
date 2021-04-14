@@ -1,6 +1,8 @@
 ## TreeSet
 
-Set子类，TreeSet的本质是一个"**有序的，并且没有重复元素**"的集合，它是通过TreeMap实现的。TreeSet中含有一个"NavigableMap类型的成员变量"m，而m实际上是"TreeMap的实例"。
+Set子类，TreeSet的本质是一个"**有序的，并且没有重复元素**"的集合，它是通过TreeMap(红黑树)实现的。TreeSet中含有一个"NavigableMap类型的成员变量"m，而m实际上是"TreeMap的实例"。
+
+https://www.jianshu.com/p/b48c47a42916 Set总结
 
 - 它存储唯一的元素
 - 它不保留元素的插入顺序
