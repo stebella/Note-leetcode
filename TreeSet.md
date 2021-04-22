@@ -47,8 +47,8 @@ E                         last()
 E                         pollFirst()
 E                         pollLast()
 E                         lower(E e)
-E                         floor(E e)
-E                         ceiling(E e)
+E                         floor(E e) // 方法返回在这个集合中小于或者等于给定元素的最大元素，如果不存在这样										的元素,返回null.
+E                         ceiling(E e) //方法返回在这个集合中大于或者等于给定元素的最小元素，如果不存在这样										的元素,返回null.
 E                         higher(E e)
 boolean                   remove(Object object)
 int                       size()
